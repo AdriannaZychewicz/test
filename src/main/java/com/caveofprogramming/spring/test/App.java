@@ -14,8 +14,6 @@ public class App {
 		OffersDAO offersDao = (OffersDAO)context.getBean("offersDao");
 
 		List<Offer> offers = offersDao.getOffers();
-          eweqwe
-                  weqqeqe
 
         for(Offer offer:offers){
 
